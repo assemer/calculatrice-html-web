@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Digital7';
+    src: url('Digital7-1e1Z.ttf');
+}
+
+body{
+	background-color: #222;
+	color: snow;
+
+	font-family: "Digital7", monospace;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+button
+{
+	background-color: #232323;
+	width: 100px;
+	height: 100px;
+	border: 1px solid #444;
+	color: snow;
+	font-size: 25px;
+	cursor: pointer;
+	transition: all .2s;
+	margin-bottom: 5px;
+}
+button:hover{
+	background-color: #3d3d3d;
+}
+button:f{
+	background-color: #292929;
+}
+.hohBat{
+	display: flex;
+	background-color: #232323;
+	border: 1px solid #444;
+	color: #00ff00;
+	height: 70px;
+	font-size: 39px;
+	justify-content: center;
+	align-items: center;
+}
